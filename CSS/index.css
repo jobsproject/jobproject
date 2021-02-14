@@ -1,0 +1,57 @@
+.first {
+    max-width: 75vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 60px;
+    height: 20vh;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.firstUse{
+
+    animation: fadeIn 1s ease-in-out;
+
+    transition-delay: 0.5s;
+}
+
+.firstUse div{
+    display: border-dox;
+    font-size: 30px;
+    font-weight: 300;
+    height: 25vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.finding-people {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
+.finding-project {
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 3;
+        transform: none;
+    }
+}
