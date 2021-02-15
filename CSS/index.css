@@ -78,10 +78,41 @@ a {
 .finding-page {
     max-width: 75vw;
     margin: 0 auto;
-    padding: 0;
+    height: 100%;
+}
+.profile{
+    display: flex;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    font-size: 25px;
+    height: 22vh;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+}
+
+.profilePage{
+    max-width: 75vw;
+    margin: 0 auto;
     height: 100%;
 }
 
+.line{
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 7vh;
+
+}
+
+.profileImg{
+    width: 8vw;
+    height: 8vw;
+    background-image: url('../IMAGES/profileimg.png');
+    background-size: cover;
+}
 
 @keyframes fadeIn {
     from {
