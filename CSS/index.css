@@ -75,6 +75,14 @@ a {
     margin-top: 10px;
 }
 
+.texts{
+    font-size: 25px;
+}
+
+.center{
+    text-align: center;
+}
+
 .finding-page {
     max-width: 75vw;
     margin: 0 auto;
