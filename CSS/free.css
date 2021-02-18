@@ -8,22 +8,23 @@ a {
 }
 
 
-
-
-
 .header{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    font-size: 60px;
     height: 13vh;
+    background-color: #323239;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header div{
+    margin: 40px 50px;
 }
 
 
 .profile{
     display: flex;
     margin-top: 6vh;
-
 }
 
 .info{
@@ -35,6 +36,7 @@ a {
     justify-content: space-between;
     padding-bottom: 5vh;
 }
+
 
 .profilePage{
     max-width: 75vw;
@@ -65,3 +67,34 @@ a {
     margin-bottom: 5vh;
 }
 
+.messenger {
+    width: 15vw;
+    height: 35vh;
+    position: fixed;
+    top: 20vh;
+    right: 5vw;
+}
+
+.chat {
+    font-size: 24px;
+    align-items: center;
+}
+
+.chatting{
+    padding-top: 4vh;
+    display: flex;
+    width: 15vw;
+    justify-content: space-around;
+}
+
+.nemo {
+    background-color: #2047ff;
+    width: 2vw;
+    height: 2vw;
+}
+
+.massage {
+    width: 11vw;
+    border-bottom: 1px solid black;
+    margin-left: 3px;
+}

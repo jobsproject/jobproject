@@ -51,8 +51,9 @@ a {
 .profileImg{
     width: 8vw;
     height: 8vw;
-    background-image: url('../IMAGES/profileimg.png');
-    background-size: cover;
+    background-color: #2047ff;
+    /*background-image: url('../IMAGES/profileimg.png');
+    background-size: cover;*/
 }
 
 .evaluation {
