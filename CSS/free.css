@@ -9,6 +9,7 @@ a {
 
 
 .header{
+<<<<<<< HEAD
     background-color: #707070;
     width: 100%;
     display: flex;
@@ -70,18 +71,35 @@ a {
     justify-content: space-between;
     font-size: 60px;
     height: 13vh;
+=======
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+    background-color: #323239;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header div{
+    margin: 40px 50px;
+>>>>>>> 60c16515229162852db4471467898a11e8a8a147
 }
 
 
 .profile{
     display: flex;
+<<<<<<< HEAD
     padding: 20px;
     height: 250px;
+=======
+    margin-top: 6vh;
+>>>>>>> 60c16515229162852db4471467898a11e8a8a147
 }
 
 .info{
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     margin-left: 2vw;
     height: 15vh;
     justify-content: space-around;
@@ -135,6 +153,20 @@ a {
 
 .space{
     padding: 5vh 0;
+=======
+    margin-left: 8vw;
+    font-size: 25px;
+    height: 25vh;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+}
+
+
+.profilePage{
+    max-width: 75vw;
+    margin: 0 auto;
+    height: 100%;
+>>>>>>> 60c16515229162852db4471467898a11e8a8a147
 }
 
 .line{
@@ -145,10 +177,18 @@ a {
 }
 
 .profileImg{
+<<<<<<< HEAD
     width: 6vw;
     height: 6vw;
     background-image: url('../IMAGES/profileimg.png');
     background-size: cover;
+=======
+    width: 8vw;
+    height: 8vw;
+    background-color: #2047ff;
+    /*background-image: url('../IMAGES/profileimg.png');
+    background-size: cover;*/
+>>>>>>> 60c16515229162852db4471467898a11e8a8a147
 }
 
 .evaluation {
@@ -158,6 +198,7 @@ a {
     justify-content: space-around;
     margin-bottom: 5vh;
 }
+<<<<<<< HEAD
 .attentionWrapper{
     width: 100%;
     display: flex;
@@ -212,4 +253,37 @@ a {
 }
 .attentionSpan{
     padding: 10px;
+=======
+
+.messenger {
+    width: 15vw;
+    height: 35vh;
+    position: fixed;
+    top: 20vh;
+    right: 5vw;
+}
+
+.chat {
+    font-size: 24px;
+    align-items: center;
+}
+
+.chatting{
+    padding-top: 4vh;
+    display: flex;
+    width: 15vw;
+    justify-content: space-around;
+}
+
+.nemo {
+    background-color: #2047ff;
+    width: 2vw;
+    height: 2vw;
+}
+
+.massage {
+    width: 11vw;
+    border-bottom: 1px solid black;
+    margin-left: 3px;
+>>>>>>> 60c16515229162852db4471467898a11e8a8a147
 }
