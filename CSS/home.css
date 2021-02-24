@@ -8,22 +8,15 @@ a {
 }
 
 .first {
-<<<<<<< HEAD
     padding: 0 15vw;
-=======
-    max-width: 75vw;
->>>>>>> 60c16515229162852db4471467898a11e8a8a147
     height: 60vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../IMAGES/programming-1873854_1920.png);
     background-size: cover;
     background-position: center;
-=======
->>>>>>> 60c16515229162852db4471467898a11e8a8a147
 }
 
 .first-wrapper{
@@ -36,7 +29,6 @@ a {
 }
 
 .header{
-<<<<<<< HEAD
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -135,13 +127,6 @@ a {
     height: 13vh;
     color: #fff;
     padding-left: 2vw;
-=======
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 60px;
-    height: 13vh;
->>>>>>> 60c16515229162852db4471467898a11e8a8a147
 }
 
 .up{
@@ -187,13 +172,9 @@ a {
 }
 
 .texts{
-<<<<<<< HEAD
     font-size: 39px;
     color: #fff;
     padding-left: 2vw;
-=======
-    font-size: 25px;
->>>>>>> 60c16515229162852db4471467898a11e8a8a147
 }
 .center{
     text-align: center;
