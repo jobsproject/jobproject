@@ -22,9 +22,7 @@ a {
 .first-wrapper{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    font-size: 60px;
-    height: 20vh;
+    font-size: 50px;
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -32,9 +30,11 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: absolute;
     top: 0;
     left: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: #707070;
 }
 
 .msfdn{
@@ -129,19 +129,22 @@ a {
     padding-left: 2vw;
 }
 
-.up{
-    padding: 8vmax;
+.what{
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 10vh;
 }
 
+.content a{
+    margin-bottom: 5vh;
+    font-size: 40px;
+    font-weight: 500;
+}
 .firstUse{
-    font-size: 30px;
-    font-weight: 300;
-    height: 25vh;
+    margin-top: 10vh;
+    font-size: 25px;
     display: flex;
     flex-direction: column-reverse;
-}
-
-.firstUse-animation{
     animation-delay: 3s;
     animation: fadeIn 1s ease-in-out;
 }
@@ -156,8 +159,9 @@ a {
 
 .contentHeader{
     margin: 0 5vw;
-    font-size: 30px;
-    font-weight: 300;
+    margin-bottom: 5vh;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 .content{
@@ -165,10 +169,14 @@ a {
     font-size: 25px;
     font-weight: 300;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 
 }
 .content li{
     margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 3vh;
 }
 
 .texts{
