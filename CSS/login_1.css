@@ -1,0 +1,115 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+        width: 80vw;
+        height: 70vh;
+}
+
+.signupImg{
+    width: 25vw;
+    height: 60vh;
+    background-image: url(../IMAGES/signup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    z-index: 1;
+    box-shadow:  11px 11px 22px #dbdbdb,
+                 -11px -11px 22px #dbdbdb;
+}
+
+.logincontent{
+    width: 60vw;
+    height: 60vh;
+    background-color: lime;
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow:  15px 15px 63px #dbdbdb,
+                 -15px -15px 63px #ffffff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.loginWrapper{
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.bar{
+    height: 30px;
+    width: 10px;
+    background: #FF5A87;
+    margin-right: 20px;
+}
+.loginspan {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.googleLoginButton {
+    width: 300px;
+    height: 67px;
+    background: #4285F4;
+    border-radius: 5px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow:  7px 7px 17px #dbdbdb,
+             -7px -7px 17px #ffffff;
+    left: 13px;
+    position: relative;
+}
+
+.googleLoginButton:hover {
+    opacity: 0.8;
+}
+
+.googleLoginButton:active {
+    opacity: 1;
+}
+
+.loginImg{
+    width: 63px;
+    height: 63px;
+    background-image: url(../IMAGES/googlelogo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.buttspan{
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.loginButton{
+    width: 100px;
+    height: 30px;
+    background-image: url(../IMAGES/loginbutton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: flex-end;
+    position: relative;
+    margin: 80px;
+}
